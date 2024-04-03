@@ -3,37 +3,60 @@
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
- 
- 
  }
- 
- 
  body {
     font-family:"Roboto", sans-serif;
  }
- 
- 
  .profile-card {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 400px;
+    height: 550px;
     background: #fff;
     border: 1px solid #eee;
     text-align: center;
     border-radius: 10px;
     box-shadow:0px 5px 10px 2px rgba(0, 0, 0, 0.1);
- 
- 
  }
- 
- 
+.btnContact,.btnemail {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+.btnContact:hover,.btnemail:hover,
+.btnContact:active,.btnemail:active {
+   background-color: initial;
+   background-image: linear-gradient(-180deg, #FF7E31, #E62C03);
+  background-position: 0 0;
+  color: #fff;
+}
+.btnContact:active,.btnemail:active {
+  opacity: .5;
+}
  .profile-card .avatar {
     padding: 20px 0px 10px;
  }
- 
- 
  .profile-card.avatar img {
     width: 150px;
     height:150px ;
@@ -61,8 +84,7 @@
  .profile-card .details {
     padding: 10px 30px;
  }
- 
- 
+
  .profile-card .details h1 {
     font-size: 25px;
     color: #111;
@@ -75,34 +97,28 @@
     margin-bottom: 12px;
     color:#555;
  }
- 
- 
+
  .profile-card .details p {
     font-size: 15px;
     color:#555;
  }
- 
- 
+
  .profile-card .numbers {
     padding: 15px 10px;
     display: flex;
     justify-content: space-around;
  }
- 
- 
  .profile-card .numbers p {
     font-size: 14px;
     margin-bottom: 2px;
     color: #555;
  }
- 
- 
+
  .profile-card .numbers h2 {
     font-size: 18px;
     color: #444;
  }
- 
- 
+
  .profile-card .btns {
     padding: 10px 0px;
     /* padding: 10px 30px 25px;
@@ -110,8 +126,6 @@
     justify-content: space-between;
     gap: 20px; */
  }
- 
- 
  .profile-card .btns button {
     flex: 1;
     padding: 10px 20px;
@@ -122,16 +136,12 @@
     border-radius: 5px;
     text-align: start;
  }
- 
- 
  .profile-card .btns button.outline {
     border: 1px solid#111;
     color: #111;
     background: transparent;
     text-align: start;
  }
- 
- 
  .profile-card .btns button fill {
     background: #111;
     color: #fff;

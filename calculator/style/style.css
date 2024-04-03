@@ -1,4 +1,17 @@
-
-
+.error{
+    background-color: #ffbaba;
+    color: #d8000c;
+    font-size: 20px;
+    font-weight: 700;
+}
+.success{
+    background-color: #DFF2BF;
+    color: #270;
+    font-size: 20px;
+    font-weight: 700;
+}
+select#option {
+    height: 30px;
+}
 
 
